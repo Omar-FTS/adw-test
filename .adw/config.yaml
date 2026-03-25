@@ -1,0 +1,16 @@
+# ADW Configuration
+
+runtime: opencode # used for ADW runtime. Choose either claude or opencode
+
+main_branch: main  # used for git diffs, merges, PRs, and worktree creation
+
+models:
+  low: anthropic/claude-haiku-4-5
+  medium: anthropic/claude-sonnet-4-5
+  high: anthropic/claude-opus-4-1
+  # override: anthropic/claude-opus-4-1  # uncomment to force all tiers
+  # Find latest models: opencode models
+
+paths:
+  claude_code: claude
+  opencode: C:\Users\Omar Taladeh\AppData\Roaming\npm\opencode.cmd
